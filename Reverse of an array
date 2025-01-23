@@ -1,0 +1,4 @@
+```
+Maintain two pointers(left and right) 
+While the left is less than the right, swap the left with the right, increment the left, and decrement the right.
+````
