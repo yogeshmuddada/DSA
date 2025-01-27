@@ -14,3 +14,10 @@
          .
        i th index element replace with n-i-1
    ```
+
+2. **Reverse of a string**
+   ```
+      with the above logic, we can solve the reverse of a string, but the problem is
+      In Java strings are immutable so first we need to convert the char array then apply the above logic
+      and finally again need to convert the char array to string.
+   ```
