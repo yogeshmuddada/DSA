@@ -1,0 +1,16 @@
+
+
+ public static String reverseString(String s) {
+        // code here
+        
+      char c[]=s.toCharArray();
+      int n=c.length;
+      for(int i=0;i<n/2;i++)
+      {
+          char temp=c[n-i-1];
+          c[n-i-1]=c[i];
+          c[i]=temp;
+      }
+      String s1=new String(c);
+      return s1;
+    }
