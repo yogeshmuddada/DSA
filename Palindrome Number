@@ -1,0 +1,8 @@
+
+
+
+1. Single-digit numbers are palindromes
+      Ex: 1, 2, 3, 4,5,6,7,8,9 all are palindromes
+2. Negative numbers are not palindromes
+      Ex: -121 to 121- so not a palindrome.
+3. If we reached the halfway point, the left number will be in x, and the right will be in rev
